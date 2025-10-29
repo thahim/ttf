@@ -1,0 +1,5 @@
+{
+  "name": "AI Image Generator",
+  "description": "An application to generate high-quality, watermark-free images from text prompts using AI. Users can select a 16:9 or 9:16 aspect ratio for the generated image.",
+  "requestFramePermissions": []
+}
