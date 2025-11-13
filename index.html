@@ -1,25 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AI Image Generator</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  <script type="importmap">
-{
-  "imports": {
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Subscribe to Tiny Tunes & Facts for fun, educational, and colorful rhymes, stories, and amazing facts for kids!">
+    <meta name="keywords" content="Tiny Tunes & Facts, Kids Rhymes, Educational Videos, YouTube Channel, Kids Learning">
+    <meta name="author" content="Tiny Tunes & Facts">
+    <title>Tiny Tunes & Facts | Subscribe Now!</title>
+    <link rel="icon" href="logo.png">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #fff;
+            padding: 20px 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        header img {
+            width: 150px;
+        }
+        main {
+            padding: 60px 20px;
+        }
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+            color: #ff4a4a;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .subscribe-btn {
+            display: inline-block;
+            background-color: #ff0000;
+            color: #fff;
+            font-weight: bold;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: transform 0.2s;
+        }
+        .subscribe-btn:hover {
+            transform: scale(1.1);
+        }
+        footer {
+            margin-top: 50px;
+            padding: 20px 0;
+            background-color: rgba(255,255,255,0.8);
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
-  <body class="bg-white">
-    <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
-  </body>
+<body>
+    <header>
+        <img src="logo.png" alt="Tiny Tunes & Facts Logo">
+    </header>
+
+    <main>
+        <h1>Welcome to Tiny Tunes & Facts!</h1>
+        <p>Explore fun rhymes, colorful animations, and amazing facts for kids! Join thousands of happy learners today.</p>
+        <a href="https://youtube.com/@tinytunesfacts?si=mh5rLFdMAJuWdlEy" target="_blank" class="subscribe-btn">Subscribe Now 🎵</a>
+    </main>
+
+    <footer>
+        <p>© 2025 Tiny Tunes & Facts | All rights reserved</p>
+    </footer>
+</body>
 </html>
